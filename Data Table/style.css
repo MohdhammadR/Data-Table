@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .bg {
+    background-color: rgb(119, 75, 131);
+    height: 900px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .bg h1 {
+    padding: 15px;
+    color: white;
+  }
+  
+  .bg table {
+    background-color: white;
+    width: 70%;
+    height: 60%;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 7px;
+  }
+  
+  table .heading {
+    background-color: rgb(50, 34, 87) !important;
+    color: white;
+  }
+  
+  table .gray {
+    background-color: rgb(240, 239, 239);
+  }
+  
+  table tr:hover {
+    background-color: brown;
+    cursor: pointer;
+  }
+  table tr:hover .phone-name {
+    background-color: rgb(161, 177, 22);
+  }
+  
